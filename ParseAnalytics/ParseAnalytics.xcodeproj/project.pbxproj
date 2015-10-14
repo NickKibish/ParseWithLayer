@@ -15,11 +15,6 @@
 		43E2C0D51BCCE83000F7A69C /* ParseAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2C0D41BCCE83000F7A69C /* ParseAnalyticsTests.swift */; };
 		43E2C0E01BCCE83000F7A69C /* ParseAnalyticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E2C0DF1BCCE83000F7A69C /* ParseAnalyticsUITests.swift */; };
 		43E2C0F11BCD67BA00F7A69C /* LayerAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E2C0F01BCD67BA00F7A69C /* LayerAuthenticator.m */; settings = {ASSET_TAGS = (); }; };
-		43FCA0751BCE41600000A091 /* LayerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA0741BCE41600000A091 /* LayerKit.framework */; };
-		43FCA0771BCE41860000A091 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA0761BCE41860000A091 /* CFNetwork.framework */; };
-		43FCA0791BCE418F0000A091 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA0781BCE418F0000A091 /* Security.framework */; };
-		43FCA07B1BCE41990000A091 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA07A1BCE41990000A091 /* MobileCoreServices.framework */; };
-		43FCA07D1BCE41AF0000A091 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FCA07C1BCE41AF0000A091 /* SystemConfiguration.framework */; };
 		4B7D1BDADAEE2FE96D255278 /* libPods-ParseAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE50816E687DE533C2D8D771 /* libPods-ParseAnalytics.a */; };
 /* End PBXBuildFile section */
 
@@ -57,11 +52,6 @@
 		43E2C0ED1BCCEB3000F7A69C /* ParseAnalytics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParseAnalytics-Bridging-Header.h"; sourceTree = "<group>"; };
 		43E2C0EF1BCD67BA00F7A69C /* LayerAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayerAuthenticator.h; path = Layer/LayerAuthenticator.h; sourceTree = "<group>"; };
 		43E2C0F01BCD67BA00F7A69C /* LayerAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LayerAuthenticator.m; path = Layer/LayerAuthenticator.m; sourceTree = "<group>"; };
-		43FCA0741BCE41600000A091 /* LayerKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayerKit.framework; path = Frameworks/LayerKit.framework; sourceTree = "<group>"; };
-		43FCA0761BCE41860000A091 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		43FCA0781BCE418F0000A091 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		43FCA07A1BCE41990000A091 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		43FCA07C1BCE41AF0000A091 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AED7260C5521D418A3B35839 /* Pods-ParseAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParseAnalytics/Pods-ParseAnalytics.release.xcconfig"; sourceTree = "<group>"; };
 		B47BDC169C84541D0915C801 /* Pods-ParseAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParseAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParseAnalytics/Pods-ParseAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
 		EE50816E687DE533C2D8D771 /* libPods-ParseAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParseAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,11 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43FCA07D1BCE41AF0000A091 /* SystemConfiguration.framework in Frameworks */,
-				43FCA07B1BCE41990000A091 /* MobileCoreServices.framework in Frameworks */,
-				43FCA0791BCE418F0000A091 /* Security.framework in Frameworks */,
-				43FCA0771BCE41860000A091 /* CFNetwork.framework in Frameworks */,
-				43FCA0751BCE41600000A091 /* LayerKit.framework in Frameworks */,
 				4B7D1BDADAEE2FE96D255278 /* libPods-ParseAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,11 +95,6 @@
 		25D99E43730B9213AA71FA4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43FCA07C1BCE41AF0000A091 /* SystemConfiguration.framework */,
-				43FCA07A1BCE41990000A091 /* MobileCoreServices.framework */,
-				43FCA0781BCE418F0000A091 /* Security.framework */,
-				43FCA0761BCE41860000A091 /* CFNetwork.framework */,
-				43FCA0741BCE41600000A091 /* LayerKit.framework */,
 				EE50816E687DE533C2D8D771 /* libPods-ParseAnalytics.a */,
 			);
 			name = Frameworks;
